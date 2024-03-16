@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="static/css/giveaway-main.css">
+        <link rel="stylesheet" href="static/css/giveaway-header.css">
+        <link rel="stylesheet" href="static/css/giveaway-draws-of-prizes.css">
+        <link rel="stylesheet" href="static/css/detailed-draw.css">
+        <link rel="stylesheet" href="static/css/bets.css">
+        <link rel="stylesheet" href="static/css/collapsible.css">
+        <link rel="stylesheet" href="static/css/swal.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+
+        <div id="all-draws-page">
+            <div class="header">
+                <div class="top">
+                    <div style="display: flex; margin-left: 10px; ">
+                        <img class="avatar" id="user_avatar" loading="lazy"/>
+                        <div class="greetings">
+                            <p style="font-size: 17px">Hello,</p>
+                            <marquee scrollamount="5" id="firstname"></marquee>
+                        </div>
+                    </div>
+                    <div style="display: flex; margin-right: 10px; flex-shrink: 0;">
+                        <i class='bx bxs-receipt' style="
+                            font-size: 30px;
+                            color: var(--text-color);
+                            margin: auto"
+                        onclick="bets.open_page()"></i>
+                    </div>
+                </div>
+                <div>
+                    <p class="title-draws-of-prizes">Draws of prizes</p>
+                    <div style="display: flex; justify-content: space-around; margin-top: 20px">
+                        <div style="text-align: center; display: grid; justify-items: center">
+                            <p class="draws-of-prizes-statistic-box" id="statistic_active">0</p>
+                            <p class="draws-of-prizes-statistic-box-signature">Active</p>
+                        </div>
+                        <div style="text-align: center; display: grid; justify-items: center">
+                            <p class="draws-of-prizes-statistic-box" id="statistic_participate">0</p>
+                            <p class="draws-of-prizes-statistic-box-signature">Participate</p>
+                        </div>
+                        <div style="text-align: center; display: grid; justify-items: center">
+                            <p class="draws-of-prizes-statistic-box" id="statistic_closed">0</p>
+                            <p class="draws-of-prizes-statistic-box-signature">Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="all-draws-of-prizes" id="list-draws-of-prizes"></ul>
+        </div>
+
+
+        <div id="detailed-draw-page">
+            <swiper-container pagination="true" id="detailed-draw-photos"></swiper-container>
+            <p id="detailed-draw-title"></p>
+        </div>
+
+        <div id="ruffle-prizes-bets-page">
+
+        </div>
+
+
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="static/js/colapsible.js"></script>
+        <script src="static/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+aiogram==3.0.0
+asyncpg
+greenlet
+loguru~=0.7.1
+pyngrok~=6.0.0
+aiohttp~=3.8.5
+SQLAlchemy~=2.0.20
+alembic~=1.12.0
+aiofiles~=23.1.0
+environs~=8.0.0
+Jinja2~=3.1.2
+jsonpickle
+async_lru
+aiogram_media_group
+aiohttp_jinja2
+pillow

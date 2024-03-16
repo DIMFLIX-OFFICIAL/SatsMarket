@@ -1,0 +1,34 @@
+.popup-add-dialog-container-html {
+    padding-bottom: 0 !important;
+}
+.swal2-container.swal2-center>.swal2-popup {
+    background-color: var(--bg-color) !important;
+    border-radius: 20px !important;
+    width: 90% !important;
+    max-width: 300px !important;
+}
+
+#swal2-html-container {
+    overflow: unset !important;
+}
+
+.swal2-html-container, .swal2-title{
+    color: var(--text-color) !important;
+    font-size: 1.3em !important;
+}
+
+.swal2-html-container {
+    font-size: 0.8em !important;
+}
+
+.swal2-backdrop {
+    opacity: 0.2 !important;
+}
+
+.swal2-confirm:focus {
+   outline: none !important;
+}
+
+.swal2-popup .swal2-styled:focus {
+    box-shadow: none !important;
+}

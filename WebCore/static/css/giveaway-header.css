@@ -1,0 +1,89 @@
+
+.header {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(220deg, #b578f2 20%, #98b0ff 100%);
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: white;
+}
+
+.greetings {
+    margin-left: 10px;
+    overflow: hidden;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+.greetings p {
+    color: var(--text-color);
+    font-weight: bold;
+    display: inline-block;
+}
+
+#firstname {
+    font-size: 20px;
+    overflow: hidden;
+    color: var(--text-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 90%;
+    white-space: nowrap;
+}
+
+.balance {
+    font-size: 19px;
+    color: var(--text-color);
+    margin: auto 0 auto 10px;
+    font-weight: bold;
+    position: relative;
+}
+
+.balance-icon {
+    position: relative;
+    color: var(--text-color);
+    font-size: 30px;
+    margin: auto 0;
+}
+
+.title-draws-of-prizes {
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.draws-of-prizes-statistic-box {
+    width: 90px;
+    height: 90px;
+    background: #FFFFFF20;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.draws-of-prizes-statistic-box-signature {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}

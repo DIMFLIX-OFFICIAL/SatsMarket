@@ -1,0 +1,108 @@
+#detailed-draw-page {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    display: none;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+
+.detailed-draw-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.detailed-draw-header i {
+    color: var(--text-color);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.detailed-draw-header p {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+#detailed-draw-photos {
+    margin-top: 20px;
+}
+
+#detailed-draw-photos .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#detailed-draw-photos .slide * {
+    position: relative;
+    width: 90%;
+    background: var(--button-color);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.detailed-draw-parameters {
+    color: var(--text-color);
+    font-size: 15px;
+    height: 45px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 10px;
+    background: var(--secondary-bg-color-50);
+    border-radius: 10px;
+}
+
+#participate-button {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(220deg, #b578f2 20%, #98b0ff 100%);
+    border-radius: 10px;
+    color: var(--text-color);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#input_draw_prizes_bet {
+    width: 100%;
+    height: 40px;
+    background: var(--secondary-bg-color);
+    border-radius: 10px;
+    border: 1px solid var(--button-color);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    box-sizing: border-box;
+    -moz-appearance: textfield;
+}
+#input_draw_prizes_bet::-webkit-inner-spin-button,
+#input_draw_prizes_bet::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#input_draw_prizes_bet::placeholder {
+  color: var(--button-color);
+}
+
+#send_draw_prizes_bet {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(220deg, #b578f2 20%, #98b0ff 100%);
+    border-radius: 10px;
+    color: var(--text-color);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
